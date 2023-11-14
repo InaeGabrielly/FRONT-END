@@ -1,0 +1,84 @@
+<html>
+<!DOCTYPE html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Formulário de Cadastro</title>
+
+</head>
+
+<body>
+
+    <h1>Manutenção de Usuários do Sistema Interno</h1>
+
+    <form action="GET">
+        <label for="Login">Login:</label>
+        <input name="Login" type="text"><br>
+
+        <br><br>
+
+        <label for="Senha"> Senha: </label>
+        <input name="Senha" type="password">
+        <br><br>
+
+        <label for="">Status:</label>
+        <select name="Status">
+            <option value="Inativo">Inativo</option>
+            <option value="Ativo">Ativo</option>
+
+        </select>
+
+        <br><br>
+
+        <label>Tipo: </label>
+        <input name="Tipo" type="radio" value="Técnico">
+        <label for="Tipo">Técnico </label>
+        <input name="Tipo" type="radio" value="Professor">
+        <label for="Tipo">Professor</label>
+        <input name="Tipo" type="radio" value="Aluno">
+        <label for="Tipo">Aluno</label>
+
+        <br><br>
+        <label for="dataCri">Data de Criação: </label>
+        <input name="dataCri" type="date">
+
+        <br><br>
+
+        <label>Perfil: </label>
+        <input name="Perfil" type="radio" value="Convidado">
+        <label for="Perfil">Convidado </label>
+        <input name="Perfil" type="radio" value="Administrador">
+        <label for="Perfil">Administrador</label>
+
+        <br><br>
+
+        <label for="Observações">Observações</label>
+        <textarea name="Observações" col="30" rows="10"></textarea>
+
+        <br><br>
+
+        <label><h3>Módulos</h3></label>
+        <input name="Módulos" type="checkbox" value="Compras">
+        <label for="Módulos">Compras</label>
+        <input name="Módulos" type="checkbox" value="Biblioteca">
+        <label for="Módulos">Biblioteca</label>
+        <input name="Módulos" type="checkbox" value="Academico">
+        <label for="Módulos">Academico</label>
+        <input name="Módulos" type="checkbox" value="Documentação">
+        <label for="Módulos">Documentação</label>
+        <input name="Módulos" type="checkbox" value="Recursos Humanos">
+        <label for="Módulos">Recursos Humanos</label>
+
+        <br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="submit" value="Excluir">
+
+
+    </form>
+
+
+</body>
+
+</html>
