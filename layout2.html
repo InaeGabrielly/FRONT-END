@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <titlte>
+        
+    </titlte>
+</head>
+
+
+
+<body>
+    <style>
+     
+        header {
+            background-color: #A4FFA4;
+            grid-area: head;
+            text-align: center;
+            padding: 10px;
+            height: 80px;
+            border: solid 8px;
+            border-color: #367334;
+        }
+
+        main {
+            background-color: #9B66FF;
+            grid-area: main;
+            height: 500px;
+            padding-left: 10px;
+            border: solid 6px;
+            border-color:#A60A27 ;
+        }
+
+        aside {
+
+            background-color: #9D9AE8;
+            grid-area: aside;
+            height: 500px;
+            padding-left: 10px;
+            border: solid 6px;
+            border-color:#993667 ;
+        }
+
+        .container {
+            display: grid;
+            grid-template-areas:
+                "head head"
+                "main aside";
+                height: 100%;
+                grid-template-rows: 90px auto;
+        }
+    </style>
+
+    <div class="container">
+        
+        <header><h1>Meu Título</h1></header>
+        <main><h2>Conteúdo Principal</h2></main>
+        <aside><h2>Menu</h2></aside>
+
+    </div>
+
+</body>
+
+</html>
